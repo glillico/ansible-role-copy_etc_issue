@@ -1,0 +1,11 @@
+---
+# tasks file for ansible-role-copy.etc_issue
+
+- name: Copy /etc/issue file
+  copy:
+    src: files/etc/issue
+    dest: /etc/issue
+    owner: root
+    group: root
+    mode: 0644
+    
