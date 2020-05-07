@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - ansible-role-copy.etc_issue
+    - copy_etc_issue
