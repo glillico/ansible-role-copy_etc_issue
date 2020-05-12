@@ -1,4 +1,4 @@
-# ansible-role-copy_etc_issue
+# Ansible Role : copy_etc_issue
 
 This role copies the text file 'files/etc/issue' to '/etc/issue' on the server.
 
