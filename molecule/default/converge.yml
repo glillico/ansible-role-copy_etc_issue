@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include ansible-role-copy_etc_issue"
+      include_role:
+        name: "ansible-role-copy_etc_issue"
