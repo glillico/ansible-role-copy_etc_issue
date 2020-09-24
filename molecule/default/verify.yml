@@ -1,0 +1,21 @@
+---
+# This is an example playbook to execute Ansible tests.
+
+- name: Verify
+  hosts: all
+
+  tasks:
+    - name: Retrieve the file information for '/etc/issue'.
+      stat:
+        path: /etc/issue
+      register: remote_file
+
+    - name: Test that the '/etc/issue' file was created correctly.
+      assert:
+        that:
+          - remote_file.stat.exists
+          - remote_file.stat.isreg
+          - remote_file.stat.path == '/etc/issue'
+          - remote_file.stat.mode == '0644'
+          - remote_file.stat.pw_name == 'root'
+          - remote_file.stat.gr_name == 'root'
