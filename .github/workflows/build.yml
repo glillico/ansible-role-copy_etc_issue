@@ -13,8 +13,13 @@ jobs:
     strategy:
       matrix:
         distro:
+          - amazonlinux2
+          - centos7
           - centos8
+          - debian9
           - debian10
+          - ubuntu1804
+          - ubuntu2004
         tag:
           - latest
 
