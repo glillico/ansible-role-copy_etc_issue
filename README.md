@@ -1,6 +1,6 @@
 # Ansible Role : copy_etc_issue
 
-[![Build Status](https://github.com/glillico/ansible-role-copy_etc_issue/workflows/build/badge.svg)](https://github.com/glillico/ansible-role-copy_etc_issue)
+[![Build Status](https://github.com/glillico/ansible-role-copy_etc_issue/workflows/build/badge.svg)](https://github.com/glillico/ansible-role-copy_etc_issue/actions?query=workflow%3Abuild)
 
 This role copies the text file 'files/etc/issue' to '/etc/issue' on the server.
 
