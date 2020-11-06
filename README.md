@@ -1,6 +1,6 @@
 # Ansible Role : copy_etc_issue
 
-[![molecule](https://github.com/glillico/ansible-role-copy_etc_issue/workflows/molecule/badge.svg)](https://github.com/glillico/ansible-role-copy_etc_issue/actions?query=workflow%3Amolecule)
+[![CI](https://github.com/glillico/ansible-role-copy_etc_issue/workflows/CI/badge.svg)](https://github.com/glillico/ansible-role-copy_etc_issue/actions?query=workflow%3ACI)
 
 This role copies the text file 'files/etc/issue' to '/etc/issue' on the server.
 
