@@ -22,7 +22,7 @@ None.
       vars_files:
         - vars/main.yml
       roles:
-        - glillico.configure_sshd
+        - glillico.copy_etc_issue
 
 ## License
 
