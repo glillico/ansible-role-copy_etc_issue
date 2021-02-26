@@ -1,5 +1,6 @@
 galaxy_info:
-  author: Graham Lillico
+  role_name: copy_etc_issue
+  author: glillico
   description: Copies /etc/issue file to an ansible managed node.
   license: license (MIT)
   min_ansible_version: 2.4
